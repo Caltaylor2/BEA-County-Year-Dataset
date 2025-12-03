@@ -1,0 +1,10 @@
+data/
+*.csv
+*.xlsx
+*.zip
+*.sav
+*.dta
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
