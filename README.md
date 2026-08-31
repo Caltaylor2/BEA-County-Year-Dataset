@@ -19,17 +19,19 @@ All datasets can be reconstructed by running the provided scripts and following 
 ---
 
 ## Repository Structure
-deliverables/
-│
-├── bea_variable_map.csv # Variable name mapping
-├── build_log.txt # Log of dataset build process
-├── panel_summary.json # Summary of merged dataset
-├── summary_statistics.xlsx # Basic summary stats
-├── run_deliverables_only.py # Script to run only deliverable builds
-├── run_panel_summary_json.py # Script to generate summary JSON
-├── run_summary_stats.py # Script to generate summary statistics
-└── README.md # Documentation
 
+```
+BEA-County-Year-Dataset/
+├── run_deliverables_only.py     # Runs only the deliverable builds
+├── run_panel_summary_json.py    # Generates the panel summary JSON
+├── run_summary_stats.py         # Generates summary statistics
+├── build_log.txt                # Log of the dataset build process
+├── panel_summary.json           # Summary of the merged dataset
+├── README.md                    # Documentation
+└── deliverables/                # Created when the scripts run
+    ├── bea_variable_map.csv     # Variable name mapping
+    └── summary_statistics.xlsx  # Basic summary stats
+```
 ---
 
 ## Reproducibility
